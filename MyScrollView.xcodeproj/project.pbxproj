@@ -13,6 +13,7 @@
 		438D93971EEE7B820056E2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438D93951EEE7B820056E2A6 /* Main.storyboard */; };
 		438D93991EEE7B820056E2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438D93981EEE7B820056E2A6 /* Assets.xcassets */; };
 		438D939C1EEE7B820056E2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438D939A1EEE7B820056E2A6 /* LaunchScreen.storyboard */; };
+		438D93C81EEEF5A60056E2A6 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D93C71EEEF5A60056E2A6 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		438D93981EEE7B820056E2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		438D939B1EEE7B820056E2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		438D939D1EEE7B820056E2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438D93C61EEEF5A60056E2A6 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		438D93C71EEEF5A60056E2A6 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				438D93901EEE7B820056E2A6 /* AppDelegate.m */,
 				438D93921EEE7B820056E2A6 /* ViewController.h */,
 				438D93931EEE7B820056E2A6 /* ViewController.m */,
+				438D93C61EEEF5A60056E2A6 /* MyScrollView.h */,
+				438D93C71EEEF5A60056E2A6 /* MyScrollView.m */,
 				438D93951EEE7B820056E2A6 /* Main.storyboard */,
 				438D93981EEE7B820056E2A6 /* Assets.xcassets */,
 				438D939A1EEE7B820056E2A6 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				438D93941EEE7B820056E2A6 /* ViewController.m in Sources */,
+				438D93C81EEEF5A60056E2A6 /* MyScrollView.m in Sources */,
 				438D93911EEE7B820056E2A6 /* AppDelegate.m in Sources */,
 				438D938E1EEE7B820056E2A6 /* main.m in Sources */,
 			);
@@ -309,6 +315,7 @@
 				438D93A21EEE7B820056E2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

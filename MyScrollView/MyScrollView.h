@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyScrollView.h
 //  MyScrollView
 //
 //  Created by Alex Lee on 2017-06-12.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyScrollView.h"
-@interface ViewController : UIViewController
 
+@interface MyScrollView : UIView
+
+@property (nonatomic)CGSize contentSize;
 
 @end
-
